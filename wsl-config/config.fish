@@ -1,4 +1,5 @@
 set -gx VISUAL "code -nw"
+set -gx BROWSER "wslview"
 
 set -x GPG_TTY (tty)
 
@@ -7,6 +8,7 @@ alias winget="winget.exe"
 alias pwsh="powershell.exe"
 alias ngen="powershell.exe ngen"
 
+alias code="code-insiders"
 alias vim="nvim"
 alias vi="nvim"
 alias nano="nvim"
